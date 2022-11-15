@@ -10,9 +10,6 @@
 </head>
 <body>
 
-
-
-
 <div class="myCont">
 <div id="masthead"><img title="Teer result" alt="Logo of TheTeer" width="170" height="56" src="./../img/theteer.png"></div>
 <div id="ezoic-pub-ad-placeholder-649"></div>
@@ -48,7 +45,6 @@
 </table>
 <br>
 <p><a class="btn" href="./juwai-teer-previous-results-android/">Juwai previous results</a></p>
-
 </div>
 <div class="myMainCont">
 <table>
@@ -89,7 +85,6 @@
 <p>Shillong Teer result update time depends on Board time</p>
 <br>
 <p><a class="btn" href="./shillong-teer-previous-results-android/">Shillong previous results</a></p>
-
 </div>
 <div class="myMainCont">
 <table>
@@ -123,7 +118,6 @@
 </table>
 <br>
 <p><a class="btn" href="./khanapara-teer-previous-results-android/">Khanapara teer previous results</a></p>
-
 </div>
 <div class="myMainCont">
 <table>
@@ -157,7 +151,6 @@
 </table>
 <br>
 <p><a class="btn" href="./bhutan-teer-previous-results-android/">Bhutan previous results</a></p>
-
 </div>
 <div class="myMainCont">
 <table>
@@ -188,9 +181,17 @@
 <p>The updating of teer result is dependent on the availability of time &amp; informed by teer Counter.</p>
 <br>
 <p><a class="btn" href="./teer-night-previous-results-android/">Night previous results</a></p>
+</div>
+</div>
 
-</div>
-</div>
+<script>
+let currentDate = new Date().toJSON().slice(0, 10);
+document.getElementById("juwai").innerHTML = currentDate;
+document.getElementById("shillong").innerHTML = currentDate;
+document.getElementById("khanapara").innerHTML = currentDate;
+document.getElementById("bhutan").innerHTML = currentDate;
+document.getElementById("night").innerHTML = currentDate;
+</script>
 
 <div class="main">
   <div class="tabs">
@@ -223,14 +224,6 @@
     $(this).addClass("active");
   });
 });
-</script>
-<script>
-let currentDate = new Date().toJSON().slice(0, 10);
-document.getElementById("juwai").innerHTML = currentDate;
-document.getElementById("shillong").innerHTML = currentDate;
-document.getElementById("khanapara").innerHTML = currentDate;
-document.getElementById("bhutan").innerHTML = currentDate;
-document.getElementById("night").innerHTML = currentDate;
 </script>
 </body>
 </html>
