@@ -1,83 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+	http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
   <loc>https://theteer.com/</loc>
-  <lastmod>2022-11-16T16:35:40+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://theteer.com/khanapara-teer-results/</loc>
-  <lastmod>2022-11-16T16:35:40+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://theteer.com/juwai-teer-results/</loc>
-  <lastmod>2022-11-16T16:35:40+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://theteer.com/bhutan-teer-result/</loc>
-  <lastmod>2022-11-16T16:35:40+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://theteer.com/night-teer-results/</loc>
-  <lastmod>2022-11-16T16:35:40+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://theteer.com/shillong-teer-previous-results/</loc>
-  <lastmod>2022-11-15T16:35:40+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://theteer.com/khanapara-teer-previous-results/</loc>
-  <lastmod>2022-11-15T16:35:40+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://theteer.com/juwai-teer-previous-results/</loc>
-  <lastmod>2022-11-15T16:35:40+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://theteer.com/bhutan-teer-previous-results/</loc>
-  <lastmod>2022-11-15T16:35:40+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://theteer.com/night-teer-previous-results/</loc>
-  <lastmod>2022-11-15T16:35:40+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://theteer.com/dream-numbers/</loc>
-  <lastmod>2022-11-15T16:35:40+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://theteer.com/teer-formula/</loc>
-  <lastmod>2022-11-15T16:35:40+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://theteer.com/privacy/</loc>
-  <lastmod>2022-11-15T16:35:40+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://theteer.com/terms/</loc>
-  <lastmod>2022-11-15T16:35:40+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://theteer.com/contact-us/</loc>
-  <lastmod>2022-11-15T16:35:40+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 </urlset>
