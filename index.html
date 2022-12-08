@@ -111,9 +111,8 @@
     function downloadJsAtOnload() {
         setTimeout(function downloadJs() {
             var element = document.createElement("script");
-            element.setAttribute("client", "ca-pub-1644942142327173");
             element.async = true;
-            element.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
+            element.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1644942142327173";
             document.body.appendChild(element);
         }, 5000);
     };
