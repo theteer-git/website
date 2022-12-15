@@ -65,4 +65,8 @@
   <loc>https://theteer.com/contact-us/</loc>
   <priority>0.64</priority>
 </url>
+<url>
+  <loc>https://theteer.com/about-teer/</loc>
+  <priority>0.64</priority>
+</url>
 </urlset>
