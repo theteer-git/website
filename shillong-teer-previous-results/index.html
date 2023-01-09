@@ -11031,7 +11031,33 @@
 </script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
 <script src='https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js'></script>
-<script>var delayInMilliseconds = 2000;setTimeout(function() {$(document).ready(function() {$('#results').DataTable({"paging": true,"autoWidth": true,"ordering": false,"pageLength": 25,deferRender: true});});}, delayInMilliseconds);</script>
+<script>
+$('#results').dataTable( {
+  "sScrollX": '100%',
+  initComplete: function () {
+  this.api().columns().every( function () {
+	  var column = this;
+	  var select = $('<select><option value=""></option></select>')
+		  .appendTo( $(column.footer()).empty() )
+		  .on( 'change', function () {
+			  var val = $.fn.dataTable.util.escapeRegex(
+				  $(this).val()
+			  );
+
+			  column
+				  .search( val ? '^'+val+'$' : '', true, false )
+				  .draw();
+		  } );
+
+	  column.data().unique().sort().each( function ( d, j ) {
+		  select.append( '<option value="'+d+'">'+d+'</option>' )
+	  } );
+  } );
+}
+} );
+
+
+</script>
 <script>const d = new Date();let year = d.getFullYear();document.getElementById("ThisYear").innerHTML = year;</script>
 </body>
 </html>
