@@ -237,6 +237,7 @@
 	
 $( document ).ready(function() {
     $('#empTable').dataTable({
+		"ordering": false,
         "ajax": "juwai.json",
         "columns": [
             {"data": "Date"},

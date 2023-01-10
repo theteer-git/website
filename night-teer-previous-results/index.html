@@ -223,6 +223,7 @@
 	/* DataTable */
 	$( document ).ready(function() {
     $('#empTable').dataTable({
+		"ordering": false,
         "ajax": "night.json",
         "columns": [
             {"data": "Date"},
